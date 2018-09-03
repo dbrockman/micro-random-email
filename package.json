@@ -1,0 +1,24 @@
+{
+  "name": "micro-random-email",
+  "version": "1.0.0",
+  "main": "main.js",
+  "repository": "git@github.com:dbrockman/micro-random-email.git",
+  "author": "David Brockman Smoliansky <david@springworks.se>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "micro",
+    "test": "jest"
+  },
+  "dependencies": {
+    "lodash.escape": "^4.0.1",
+    "micro": "^9.3.3",
+    "nanoid": "^1.2.2"
+  },
+  "devDependencies": {
+    "got": "^9.2.0",
+    "jest": "^23.5.0",
+    "prettier": "^1.14.2",
+    "test-listen": "^1.1.0"
+  }
+}
